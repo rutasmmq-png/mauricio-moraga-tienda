@@ -1,0 +1,68 @@
+import type { Dict } from './es';
+
+const en: Dict = {
+  nav: { home: 'Home', books: 'Books', author: 'About the author', news: 'News', contact: 'Contact', cart: 'Cart', menu: 'Menu', language: 'Site language' },
+  hero: { catalog: 'Browse the full catalog', featuredBuy: 'Buy books', available: 'Available on Kindle, in print and digital' },
+  home: {
+    featured: 'Featured books', featuredSub: 'Each title shows its language, format and where to buy it.',
+    news: 'Publishing news', allNews: 'See all news', allBooks: 'See the full catalog',
+    aboutKicker: 'About the author', aboutCta: 'Read his story',
+    testimonials: 'Reader reviews', recommended: 'Recommended books',
+  },
+  book: {
+    view: 'View book', buy: 'Buy', addToCart: 'Add to cart', added: 'Added to cart',
+    buyOn: 'Buy on', language: 'Language', format: 'Format', pages: 'Pages', category: 'Topic',
+    price: 'Price', author: 'Author', isbn: 'ISBN', published: 'Published', description: 'Description',
+    contents: 'Topics and contents', buyOptions: 'Buying options', related: 'Related books',
+    reviews: 'Reader reviews', noReviews: 'No reviews published yet. Be the first to share yours!',
+    writeReview: 'Write a review', yourName: 'Your name', rating: 'Rating', comment: 'Comment',
+    sendReview: 'Submit review', reviewThanks: 'Thank you. Your review will appear once it is approved.',
+    unavailable: 'Coming soon for purchase.', share: 'Share',
+    directSale: 'Buy directly on this site', externalSale: 'You will be taken to the purchase page on',
+    digitalDelivery: 'Instant digital download after payment', physicalDelivery: 'Home delivery',
+    allStores: 'Choose your store: Apple Books, Kobo, Barnes & Noble, Google Play and more', chooseStore: 'Choose a store', outOfStock: 'Out of stock', from: 'From', new: 'New', featured: 'Featured',
+  },
+  catalog: {
+    title: 'Book catalog', subtitle: 'All of Mauricio Moraga’s books in Spanish, English and Hindi.',
+    all: 'All', language: 'Language', category: 'Topic', format: 'Format', platform: 'Where to buy',
+    search: 'Search by title', clear: 'Clear filters', results: 'books', empty: 'No books match these filters.',
+    prev: 'Previous', next: 'Next', filters: 'Filters',
+  },
+  formats: { digital: 'Digital', kindle: 'Kindle', pdf: 'PDF', impreso: 'Print' },
+  platforms: { direct: 'Direct purchase', other: 'Other platforms', books2read: 'Books2Read' },
+  cart: {
+    title: 'Your cart', empty: 'Your cart is empty.', continue: 'Continue shopping', checkout: 'Checkout',
+    subtotal: 'Subtotal', shipping: 'Shipping', total: 'Total', remove: 'Remove', qty: 'Quantity',
+    digitalOne: 'Digital book: one copy per purchase', mixedCurrency: 'Your cart already has items in {cur}. Complete that purchase or empty the cart to add items in another currency.',
+    shippingCalc: 'Calculated at checkout', note: 'Amazon and Hotmart books are bought on their own platform and are not added to this cart.',
+  },
+  checkout: {
+    title: 'Checkout', yourData: 'Your details', name: 'Full name', email: 'Email',
+    emailHint: 'Your confirmation and download links will be sent here.', phone: 'Phone', country: 'Country',
+    shippingAddress: 'Shipping address', address: 'Street and number', city: 'City', region: 'State / region', zip: 'Postal code',
+    payment: 'Payment method', pay: 'Pay', processing: 'Processing…', summary: 'Order summary',
+    noProviders: 'Online payments are not enabled for this currency yet. Please contact us to arrange your purchase.',
+    terms: 'By paying you agree to receive your book at the email provided. Your data is only used to process this order.',
+    stripe: 'Credit or debit card (Stripe)', mercadopago: 'Mercado Pago', webpay: 'Webpay (Transbank)',
+    error: 'We could not start the payment. Please try again.',
+  },
+  success: {
+    title: 'Thank you for your purchase!', pendingTitle: 'We are confirming your payment', failedTitle: 'The payment was not completed',
+    order: 'Order', paid: 'Payment confirmed. We have emailed you the details.', pending: 'This can take a few seconds. This page will refresh on its own.',
+    failed: 'You have not been charged. You can try again from your cart.', downloads: 'Your downloads',
+    download: 'Download', downloadNote: 'Each link is personal, expires in 30 days and allows up to 5 downloads.',
+    shipping: 'We will contact you to arrange delivery of your printed books.', back: 'Back to the store', retry: 'Back to cart',
+    notFound: 'We could not find this order.',
+  },
+  author: { title: 'About the author', training: 'Education and experience', books: 'Books by the author' },
+  contact: {
+    title: 'Contact', subtitle: 'Write to me about books, invitations or special orders.',
+    name: 'Name', email: 'Email', subject: 'Subject', message: 'Message', send: 'Send message',
+    sent: 'Thank you, your message has been sent. I will reply soon.', whatsapp: 'Message on WhatsApp', follow: 'Social media', directEmail: 'Email',
+  },
+  newsletter: { title: 'Get publishing news', text: 'New releases, editions in new languages and Bible studies, straight to your inbox.', placeholder: 'you@email.com', button: 'Subscribe', thanks: 'Thank you, we will keep you posted.' },
+  news: { title: 'Publishing news', read: 'Read more', empty: 'News coming soon.', relatedBook: 'Related book' },
+  footer: { rights: 'All rights reserved.', store: 'Store', authorCol: 'Author', languages: 'Books in Español, English and हिन्दी' },
+  common: { error: 'Something went wrong. Please try again.', required: 'Please fill in the required fields.', loading: 'Loading…', back: 'Back', notFound: 'Page not found', notFoundText: 'The page you are looking for does not exist or has moved.' },
+};
+export default en;
